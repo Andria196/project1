@@ -1,0 +1,21 @@
+#first homework
+def check_divisibility(num, divisor):
+    try:
+        if num % divisor == 0:
+            return f"{num} is divisible by {divisor}."
+        else:
+            return f"{num} is not divisible by {divisor}."
+    except ZeroDivisionError:
+        return "Division by zero is not allowed."
+number = int(input("Enter a number: "))
+divider = int(input("Enter a divisor: "))
+result = check_divisibility(number, divider)
+print(result)
+
+----------------------------------------------------------------
+#secondhomework
+my_list = [1, 2, 3]
+print(my_list[5])
+
+-------------------------------------------------------------------
+#3rdhomework
